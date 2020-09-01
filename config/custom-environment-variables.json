@@ -1,0 +1,5 @@
+{
+  "jwtPrivateKey": "mama_jwtPrivateKey",
+  "db":"by_online_market_db",
+  "SENDGRID_API_KEY":"mama_sendgrid_api_key"
+}

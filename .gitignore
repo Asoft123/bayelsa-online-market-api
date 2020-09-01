@@ -1,0 +1,5 @@
+/node_modules
+error.log
+.DS_Store
+/*.env
+/*.jpeg*.jpg*.old*Shortcut.lnk*.pngsendgrid.env
