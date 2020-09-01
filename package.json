@@ -4,7 +4,15 @@
   "description": "A simple api to manage customers from a social media market",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"index.js"
+  },
+  "engines": {
+    "node": "12.14.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Asoft123/bayelsa-online-market-api.git"
   },
   "author": "Festus Alabo",
   "license": "MIT",
