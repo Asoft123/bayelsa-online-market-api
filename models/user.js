@@ -76,6 +76,7 @@ function validateUser(user) {
     email: Joi.string().min(5).max(255).required().email({ minDomainSegments: 2, tlds: { allow: ['com', 'net'] } }),
     phone: Joi.string().min(11).max(14).required(),
     password: Joi.string().min(5).max(255).required(),
+    isAdmin: Joi.boolean()
   });
 
   return schema.validate(user);
